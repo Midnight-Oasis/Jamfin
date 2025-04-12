@@ -4,6 +4,7 @@
     You can grab the base theme by changing jamfin.css to base.css in the first line.
 */
 
+/* Import the base theme and all the modules */
 @import url("https://cdn.jsdelivr.net/gh/Midnight-Oasis/Jamfin@latest/theme/base.css");
 @import url("https://cdn.jsdelivr.net/gh/Midnight-Oasis/Jamfin@latest/theme/modules/static-sidebar.css");
 @import url("https://cdn.jsdelivr.net/gh/Midnight-Oasis/Jamfin@latest/theme/modules/central-libraries-small.css");
