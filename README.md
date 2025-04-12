@@ -1,9 +1,9 @@
 <div align="center">
 <img src="assets/logo.png" alt="Logo" width="125"/>
 
-[![Download Hits](https://data.jsdelivr.com/v1/package/gh/JamsRepos/Jamfin/badge)](https://www.jsdelivr.com/package/gh/JamsRepos/Jamfin)
+[![Download Hits](https://data.jsdelivr.com/v1/package/gh/Midnight-Oasis/Jamfin/badge)](https://www.jsdelivr.com/package/gh/Midnight-Oasis/Jamfin)
 
-( <a href="https://github.com/JamsRepos/Jamfin#ℹ%EF%B8%8F-welcome">About</a> - <a href="https://github.com/JamsRepos/Jamfin#-screenshots">Screenshots</a> )
+( <a href="https://github.com/Midnight-Oasis/Jamfin#ℹ%EF%B8%8F-welcome">About</a> - <a href="https://github.com/Midnight-Oasis/Jamfin#-screenshots">Screenshots</a> )
 
 ## ℹ️ Welcome
 
@@ -20,7 +20,7 @@ The following line includes the base theme as well as all our optional modules. 
 <div align="left">
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/complete.css");
+@import url("https://cdn.jsdelivr.net/gh/Midnight-Oasis/Jamfin@latest/theme/complete.css");
 ```
 
 </div>
@@ -30,7 +30,7 @@ If you just want the theme without all our modules integrated, simply copy this 
 <div align="left">
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/base.css");
+@import url("https://cdn.jsdelivr.net/gh/Midnight-Oasis/Jamfin@latest/theme/base.css");
 ```
 
 </div>
@@ -48,26 +48,27 @@ Then enter the theme into the `Custom CSS code` option and save your settings.
 ## 🖌️ Customisation
 
 Not sure if you like our colour scheme? No worries, we allow easy access to our themes colours. Paste these below your import and customise away!
+
 <div align="left">
 
 ```css
 :root {
-    /* Colours */
-    --theme-background-colour: #101010;
-    --theme-sidebar-background-colour: #222222;
-    --theme-menu-background-colour: #3a3a3a80;
-    --theme-menu-shadow-colour: #fff3;
-    --theme-base-colour: #696969;
-    --theme--hover-colour: #dbdbdb;
-    --theme-restart-colour: #da87287e;
-    --theme-shutdown-colour: #c21c1c9d;
-    --theme-progress-bar-colour: #cfcfcf;
-    --theme-progress-bar-background-colour: #2c2c2c;
-    --theme-progress-bar-transcoding-colour: #eb7e25;
+  /* Colours */
+  --theme-background-colour: #101010;
+  --theme-sidebar-background-colour: #222222;
+  --theme-menu-background-colour: #3a3a3a80;
+  --theme-menu-shadow-colour: #fff3;
+  --theme-base-colour: #696969;
+  --theme--hover-colour: #dbdbdb;
+  --theme-restart-colour: #da87287e;
+  --theme-shutdown-colour: #c21c1c9d;
+  --theme-progress-bar-colour: #cfcfcf;
+  --theme-progress-bar-background-colour: #2c2c2c;
+  --theme-progress-bar-transcoding-colour: #eb7e25;
 
-    /* General Appearance */
-    --theme-roundness: .75rem;
-    --theme-blur: 16px;
+  /* General Appearance */
+  --theme-roundness: 0.75rem;
+  --theme-blur: 16px;
 }
 ```
 
