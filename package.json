@@ -2,6 +2,10 @@
   "name": "jamfin",
   "version": "1.0.0",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Midnight-Oasis/Jamfin.git"
+  },
   "scripts": {
     "semantic-release": "semantic-release"
   },
